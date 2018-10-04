@@ -10,31 +10,32 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Markazi+Text|Montserrat|Playfair+Display" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg myheader">
-    <a class="navbar-brand olga" href="index.html">OL</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-
-        <a class="nav-item nav-link mywork" href="#Projects" id="scroll">Projects</a>
-        <a class="nav-item nav-link contact" href="#Contact" id="scroll">Contact</a>
-
-      </div>
-    </div>
-  </nav>
-
   <div class="container">
+
+    <ul class="nav justify-content-end sticky-top">
+      <li class="nav-item">
+        <a class="nav-link active icons" href="index.html">OL</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link icons" href="#Projects" id="scroll">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item nav-link icons" href="#Contact" id="scroll">Contact</a>
+      </li>
+    </ul>
+
+
+
+
     <div class="row mymargins">
       <div class="col-md-6">
-        <h1> Olga Levina</h1>
+        <h1 class="olga"> Olga Levina</h1>
         <p>Full Stack Developer. Marketing professional</p>
       </div>
       <div class="col-sm-6">
@@ -56,77 +57,164 @@
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
       </div> -->
+
+    <!-- <a href="http://en.wikipedia.org/"></a><div class="box"><iframe src="http://en.wikipedia.org/" width = "500px" height = "500px"></iframe></div> -->
+
+<div class="row">
     <div class="card-columns mymargins" id="Projects">
       <div class="card">
-        <a href="https://ggoldammer.github.io/Project1/">
-        <img class="card-img-top" src="assets/images/Should.png" alt="Card image cap">
-      </a>
+        <a href="https://ggoldammer.github.io/Project1/" class="box">
+          <img class="card-img-top" src="assets/images/mac1.png" alt="Card image cap">
+        </a>
         <div class="card-body">
           <h5 class="card-title cardStyle">Should I Be Worried?</h5>
           <p class="card-text cardStyle">Gain local weather and news information based on nearby natural-disasters</p>
         </div>
       </div>
-      <div class="card p-3">
-        <blockquote class="blockquote mb-0 card-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-          <footer class="blockquote-footer">
-            <small class="text-muted">
-              Someone famous in <cite title="Source Title">Source Title</cite>
-            </small>
-          </footer>
-        </blockquote>
-      </div>
+
+
+
       <div class="card">
-        <a href="https://olevina.github.io/GifTastic/">
-          <img class="card-img-top" src="assets/images/gif.png" alt="Card image cap">
+        <a href="https://olevina.github.io/Firebase/" class="box">
+          <img class="card-img-top" src="assets/images/train.png" alt="Firebase">
         </a>
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h5 class="card-title cardStyle">Firebase Project (Train scheduler)</h5>
+          <p class="card-text cardStyle">Train schedule application that incorporates Firebase to host arrival and
+            departure data. The app retrieves and manipulates information with Moment.js. This website
+            provides up-to-date information about various trains, namely their arrival times and how many minutes remain
+            until they arrive at their station.</p>
         </div>
       </div>
-      <div class="card bg-primary text-white text-center p-3">
-        <blockquote class="blockquote mb-0">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-          <footer class="blockquote-footer">
-            <small>
-              Someone famous in <cite title="Source Title">Source Title</cite>
-            </small>
-          </footer>
-        </blockquote>
-      </div>
-      <div class="card text-center">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img" src="..." alt="Card image">
-      </div>
-      <div class="card p-3 text-right">
-        <blockquote class="blockquote mb-0">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-          <footer class="blockquote-footer">
-            <small class="text-muted">
-              Someone famous in <cite title="Source Title">Source Title</cite>
-            </small>
-          </footer>
-        </blockquote>
-      </div>
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content. This card has even longer content than the first to show that equal height action.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-    </div>
 
-  </div>
+
+
+      <div class="card">
+        <a href="https://olevina.github.io/GifTastic/">
+          <img class="card-img-top" src="assets/images/mac2.png" alt="Card image cap">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title cardStyle">GifTastic</h5>
+          <p class="card-text cardStyle">Using GIPHY API to make a dynamic web page that populates with gifs of your
+            choice (click on a gif to activate and pause it)</p>
+        </div>
+      </div>
+
+
+      <div class="card">
+          <a href="https://olevina.github.io/GifTastic/">
+            <img class="card-img-top" src="assets/images/gif.png" alt="Card image cap">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title cardStyle">GifTastic</h5>
+            <p class="card-text cardStyle">Using GIPHY API to make a dynamic web page that populates with gifs of your
+              choice (click on a gif to activate and pause it)</p>
+          </div>
+        </div>
+
+
+      <div class="card">
+          <a href="https://olevina.github.io/GifTastic/">
+            <img class="card-img-top" src="assets/images/gif.png" alt="Card image cap">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title cardStyle">GifTastic</h5>
+            <p class="card-text cardStyle">Using GIPHY API to make a dynamic web page that populates with gifs of your
+              choice (click on a gif to activate and pause it)</p>
+          </div>
+        </div>
+
+
+      <div class="card">
+          <a href="https://olevina.github.io/GifTastic/">
+            <img class="card-img-top" src="assets/images/gif.png" alt="Card image cap">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title cardStyle">GifTastic</h5>
+            <p class="card-text cardStyle">Using GIPHY API to make a dynamic web page that populates with gifs of your
+              choice (click on a gif to activate and pause it)</p>
+          </div>
+        </div>
+
+      <div class="card">
+        <div class="card-body cardStyle">
+          <a href="https://olevina.github.io/TriviaGame/" class="cardStyle">
+          <h5 class="card-title">Trivia Game</h5>
+          <p class="card-text">Trivia game using JavaScript for the logic and jQuery to manipulate HTML.</p>
+          </a>
+        </div>
+      </div>
+
+
+
+      <div class="card">
+          <div class="card-body cardStyle">
+            <a href="https://olevina.github.io/TriviaGame/" class="cardStyle">
+            <h5 class="card-title">Firebase Project (Train scheduler)</h5>
+          </a>
+            <p class="card-text">Train schedule application that incorporates Firebase to host arrival and
+                departure data. The app retrieves and manipulates information with Moment.js. This website
+                provides up-to-date information about various trains, namely their arrival times and how many minutes remain
+                until they arrive at their station.</p>
+            
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body cardStyle">
+      <a href="https://olevina.github.io/TriviaGame/" class="cardStyle">
+      <h5 class="card-title">Trivia Game</h5>
+      <p class="card-text">Trivia game using JavaScript for the logic and jQuery to manipulate HTML.</p>
+      </a>
+</div>
+</div>
+</div>
+    
+
+
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+         
+          </div>
+          <div class="col-sm">
+    
+              <div class="contact mymargins" id="Contact">
+                  <div class="card-body text-center">
+                    <h4>Contact Me</h4>
+                    <a href="https://www.linkedin.com/in/olga-levina-6869b731/" target="_blank">
+                      <i class="fab fa-linkedin fa-3x icons"></i>
+                    </a>
+                    <a href="https://github.com/olevina" target="_blank">
+                      <i class="fab fa-github fa-3x icons"></i>
+                    </a>
+              
+                    <a href="mailto:olevina@ymail.com" target="_blank">
+                      <i class="fas fa-envelope fa-3x icons"></i>
+              
+                    </a>
+                    <div>
+                      <img src="assets/images/dumb.jpeg" class="rounded-circle mypic" alt="Olga Levina">
+                    </div>
+              
+                  </div>
+                </div>
+
+
+          </div>
+          <div class="col-sm">
+      
+          </div>
+        </div>
+      </div> 
+ 
+
+ 
+
+
+      
+  
 
 
 
@@ -136,6 +224,7 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>

@@ -1,26 +1,25 @@
 body {
-    background-color: rgb(34, 34, 34);
+    /* background-color: rgb(34, 34, 34); */
     font-family: 'Markazi Text', serif;
     font-family: 'Playfair Display', serif;
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
+    border: 10px solid rgb(56, 53, 53);
 }
 
 .myheader {
-    background-color: rgb(34, 34, 34);
+    /* background-color: rgb(34, 34, 34); */
     /* border-bottom: 1px solid rgba(112, 105, 105, 0.671); */
 }
 
 .olga {
-    color: rgb(255, 255, 255);
+    color:rgb(56, 53, 53);
 }
 
-.mywork {
-    color: crimson;
-}
-
-.contact {
-    color: yellowgreen;
+.projects {
+    height: 200px;
+    width: 400px;
+    background-color: bisque;
 }
 
 
@@ -29,20 +28,12 @@ body {
 }
 
 p {
-    color: rgba(240, 248, 255, 0.548);
+    color:rgb(56, 53, 53);
     font-family: 'Open Sans', sans-serif;
     font-size: large;
 }
 
-.card-columns {
-    @include media-breakpoint-only(lg) {
-      column-count: 4;
-    }
 
-    @include media-breakpoint-only(xl) {
-      column-count: 5;
-    }
-  }
 
   h1 {
 font-size: 70px;
@@ -51,3 +42,39 @@ font-size: 70px;
   .cardStyle {
       color: black;
   }
+
+.contact {
+    color: black;
+   
+}
+
+.icons {
+    color:rgb(56, 53, 53);
+
+
+}
+
+.mypic {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+
+}
+
+.myimg {
+width: 400px;
+height: 290px;
+}
+/* .mymargin {
+ margin: 0 auto;
+} */
+/* .box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+} */
