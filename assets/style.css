@@ -1,3 +1,53 @@
 body {
     background-color: rgb(34, 34, 34);
+    font-family: 'Markazi Text', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
 }
+
+.myheader {
+    background-color: rgb(34, 34, 34);
+    /* border-bottom: 1px solid rgba(112, 105, 105, 0.671); */
+}
+
+.olga {
+    color: rgb(255, 255, 255);
+}
+
+.mywork {
+    color: crimson;
+}
+
+.contact {
+    color: yellowgreen;
+}
+
+
+.mymargins {
+    margin-top: 5%;
+}
+
+p {
+    color: rgba(240, 248, 255, 0.548);
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+
+  h1 {
+font-size: 70px;
+  }
+
+  .cardStyle {
+      color: black;
+  }
