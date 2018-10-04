@@ -4,12 +4,11 @@ body {
     font-family: 'Playfair Display', serif;
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
-    border: 10px solid rgb(56, 53, 53);
+    /* border: 10px solid rgb(56, 53, 53); */
 }
 
 .myheader {
-    /* background-color: rgb(34, 34, 34); */
-    /* border-bottom: 1px solid rgba(112, 105, 105, 0.671); */
+    background-color: rgba(245, 242, 239, 0.658)
 }
 
 .olga {
@@ -24,7 +23,7 @@ body {
 
 
 .mymargins {
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 p {
@@ -45,7 +44,7 @@ font-size: 70px;
 
 .contact {
     color: black;
-   
+    margin-top: 25px;
 }
 
 .icons {
@@ -64,6 +63,14 @@ font-size: 70px;
 .myimg {
 width: 400px;
 height: 290px;
+}
+
+.myfooter {
+    background-color: rgba(245, 242, 239, 0.658);
+    height: 350px;
+    /* width: 9000px; */
+    margin-top: 10%;
+    /* padding: 20px; */
 }
 /* .mymargin {
  margin: 0 auto;
