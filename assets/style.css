@@ -72,6 +72,11 @@ height: 290px;
     margin-top: 10%;
     /* padding: 20px; */
 }
+
+a:hover {
+    text-decoration:none;
+    color: black;
+ }
 /* .mymargin {
  margin: 0 auto;
 } */
