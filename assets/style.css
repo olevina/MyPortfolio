@@ -24,6 +24,7 @@ body {
 
 .mymargins {
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 p {
@@ -66,10 +67,11 @@ height: 290px;
 }
 
 .myfooter {
-    background-color: rgba(245, 242, 239, 0.658);
+    /* background-color: rgba(245, 242, 239, 0.658); */
     height: 350px;
     /* width: 9000px; */
     margin-top: 10%;
+    width: 100%;
     /* padding: 20px; */
 }
 
@@ -90,3 +92,10 @@ a:hover + .box,.box:hover{
     position: relative;
     z-index: 100;
 } */
+
+
+
+
+.myp {
+    font-size: 13px;
+}
