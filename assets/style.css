@@ -21,6 +21,9 @@ body {
     background-color: bisque;
 }
 
+h3 {
+    color: black;
+}
 
 .mymargins {
     margin-top: 10%;
